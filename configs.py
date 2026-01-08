@@ -24,12 +24,13 @@ class Config(object):
 
     SUPPORT_GROUP = str(os.environ.get("SUPPORT_GROUP", "https://t.me/HeimanSupport"))
 
-    DB_URL = str(os.environ.get("DB_URL", "mongodb+srv://Sasuke_db_user:UI9EuEPlxYFzq3FG@cluster0.ewoo4eq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"))
+    DB_URL = str(os.environ.get("DB_URL", "mongodb+srv://ikbryt666:YJIcbUwfBRsJVelb@cluster0.2odc3wb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"))
     
     DB_NAME = str(os.environ.get("DB_NAME", "feedback_bot"))
     
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003386075651"))
 
     BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
+
 
 
